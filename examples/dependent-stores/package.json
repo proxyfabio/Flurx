@@ -1,0 +1,45 @@
+{
+  "name": "dependent-stores",
+  "version": "0.0.1",
+  "description": "Example component with dependent stores",
+  "main": "/bundle/app.react.js",
+  "author": "proxyfabio",
+  "devDependencies": {
+    "browserify": "^6.3.3",
+    "browserify-shim": "^3.8.1",
+    "coffee-reactify": "^2.1.0",
+    "coffee-script": "^1.8.0",
+    "component": "^1.0.1",
+    "gulp": "^3.8.10",
+    "gulp-changed": "^1.0.0",
+    "gulp-cssmin": "^0.1.6",
+    "gulp-jshint": "^1.9.0",
+    "gulp-less": "^2.0.1",
+    "gulp-load-plugins": "^0.8.0",
+    "gulp-notify": "^2.0.1",
+    "gulp-size": "^1.1.0",
+    "gulp-sourcemaps": "^1.2.8",
+    "gulp-uglifyjs": "^0.5.0",
+    "gulp-util": "^3.0.1",
+    "minimist": "^1.1.0",
+    "pretty-hrtime": "^0.2.2",
+    "require-dir": "^0.1.0",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.0.0",
+    "watchify": "^2.1.0"
+  },
+  "browserify-shim": "./shim.js",
+  "browserify": {
+    "transform": [
+      "browserify-shim",
+      "coffee-reactify"
+    ]
+  },
+  "scripts": {
+    "build": "gulp"
+  },
+  "dependencies": {
+    "kefir": "^1.1.0",
+    "react": "^0.12.2"
+  }
+}
