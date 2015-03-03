@@ -1,0 +1,32 @@
+{
+  "name": "Lotos",
+  "version": "0.1.0",
+  "description": "Flux concept in a functional style",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/proxyfabio/Lotos.git"
+  },
+  "keywords": [
+    "flux",
+    "react",
+    "kefir",
+    "frp"
+  ],
+  "author": "proxyfabio",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/proxyfabio/Lotos/issues"
+  },
+  "homepage": "https://github.com/proxyfabio/Lotos",
+  "dependencies": {
+    "kefir": "^1.1.0",
+    "react": "^0.12.2"
+  }
+}
